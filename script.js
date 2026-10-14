@@ -26,9 +26,9 @@ function draw() {
   }
   vid.play();
   
-  rotate(rotate);
+  /** rotate(rotate);
   fill("red");
-  ellipse(300, 200, 50);
+  ellipse(300, 200, 50); **/
 }
 
 function mousePressed() {
