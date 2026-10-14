@@ -17,14 +17,14 @@ function draw() {
   rotate = frameCount * 2;
   background (220);
   tint('salmon')
-  image(img, x, 0, );
+  image(img, x, 0);
   image(vid.loop(), 50, 50);
   //filter(THRESHOLD);
+  vid.play();
   x += 2;
   if (x > width) {
     x = 0;
   }
-  vid.play();
   
   /** rotate(rotate);
   fill("red");
